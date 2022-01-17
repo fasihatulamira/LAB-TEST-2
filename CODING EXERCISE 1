@@ -1,0 +1,23 @@
+package labtest2;
+import java.util.Scanner;
+public class no4 {
+public static void main(String [] args) {
+	Scanner sc=new Scanner(System.in);
+	 float radius;
+	 double diameter, circum, area;
+	 
+	 System.out.println("Enter the radius: ");
+	 radius=sc.nextFloat();
+	 double num=(float)radius;
+	 
+	 diameter = 2.0 * num;
+	 area = Math.PI * num * num;
+	 circum = 2.0 * Math.PI * num;
+	 
+	 System.out.printf("the diameter is %.2f" ,diameter); 
+	 System.out.printf("\nthe area is %.2f" ,area); 
+	 System.out.printf("\nthe circumference is %.2f" ,circum); 
+	 
+	 
+}
+}
